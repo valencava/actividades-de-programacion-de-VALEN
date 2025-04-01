@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num = parseInt(prompt("escriba un numero B)"));
+
+        if (num %2 == 0) {
+            document.write("El numero que elejiste es par, yippy");
+        } else {
+            document.write("El numero es impar desgrasiado");
+        }
+
+    </script>
+</body>
+</html>
